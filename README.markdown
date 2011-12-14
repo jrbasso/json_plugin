@@ -7,6 +7,8 @@ This behavior is designed to CakePHP 2.0 and give a performed way to response JS
 - Add as a git submodule: from you app directory, run `git submodule add git://github.com/jrbasso/json_plugin.git Plugin/Json`
 - Download an archive from github and extract it in `app/Plugin/Json`
 
+If you are not using `CakePlugin::loadAll()`, add `CakePlugin::load('Json');` in your bootstrap.
+
 ## Usage
 
 ### Directly from your Controller
