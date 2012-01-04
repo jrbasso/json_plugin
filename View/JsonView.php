@@ -44,7 +44,7 @@ class JsonView extends View {
  * @return string
  */
 	public function render($view = null, $layout = null) {
-		if ($view !== false && $viewFileName = $this->_getViewFileName($view)) {
+		if (!empty($view) && $viewFileName = $this->_getViewFileName($view)) {
 			$this->_render($viewFileName);
 		}
 
