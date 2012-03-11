@@ -2,6 +2,8 @@
 
 This behavior is designed to CakePHP 2.0 and give a performed way to response JSON requests.
 
+**NOTE:** The CakePHP 2.1 has support to Json View. So you **DON'T** need to use this plugin. You can check the [CakePHP Documentation](http://book.cakephp.org/2.0/en/views/json-and-xml-views.html) how to use.
+
 ## Installation
 - Clone from github: from your app directory, run `git clone git://github.com/jrbasso/json_plugin.git Plugin/Json`
 - Add as a git submodule: from you app directory, run `git submodule add git://github.com/jrbasso/json_plugin.git Plugin/Json`
